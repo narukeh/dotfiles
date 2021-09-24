@@ -71,7 +71,7 @@ user_pref("browser.selfsupport.url", "");
 user_pref("browser.sessionstore.privacy_level", 2);
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20210920105550");
 user_pref("browser.shell.mostRecentDateSetAsDefault", "1632322459");
-user_pref("browser.startup.homepage", "https://duckduckgo.com/?key=6bce43ee20bc40153c17fe1ce2c1dbf4256686fc26b0576e782b1748e9a735632a32f7bb0524752cec7fc04fa1008a92daea31ad3be6cc00d51e993621a5c329\"");
+user_pref("browser.startup.homepage", "https://duckduckgo.com/?key=6bce43ee20bc40153c17fe1ce2c1dbf4256686fc26b0576e782b1748e9a735632a32f7bb0524752cec7fc04fa1008a92daea31ad3be6cc00d51e993621a5c329");
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("browser.startup.lastColdStartupCheck", 1632322457);
 user_pref("browser.tabs.crashReporting.sendReport", false);
