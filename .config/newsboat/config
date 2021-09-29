@@ -27,12 +27,12 @@ bind-key U show-urls
 bind-key x pb-delete
 
 # Gruvbox
-color listnormal		color8	default
-color listnormal_unread	color11	default
-color listfocus			color0	color6	bold
-color listfocus_unread	color0	color6	bold
-color info				color9	color0	bold
-color article			color15	default
+color listnormal        color8	default
+color listnormal_unread color11	default
+color listfocus         color0	color6
+color listfocus_unread  color0	color14
+color info              color9	color0	bold
+color article           color15	default
 
 # # Solarized (official github)
 # color listnormal	color3	default

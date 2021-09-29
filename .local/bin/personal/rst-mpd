@@ -1,0 +1,8 @@
+#!/bin/sh
+mpc volume 0
+mpc toggle >/dev/null 2>&1
+killall mpdup mpc mpd >/dev/null 2>&1
+killall mpdup mpc mpd >/dev/null 2>&1
+mpd >/dev/null 2>&1 && music >/dev/null 2>&1
+mpc toggle >/dev/null 2>&1
+mpc volume 70

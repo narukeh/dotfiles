@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pidof deemix-server-onefile || setsid -f deemix-server-onefile
+
+# firefox-developer-edition -P 4nitter --ssb "http://127.0.0.1:6595/"
+$BROWSER 'http://127.0.0.1:6595/'

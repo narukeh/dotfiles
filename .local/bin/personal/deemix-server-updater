@@ -1,0 +1,5 @@
+#!/bin/sh
+
+curl -L 'https://download.deemix.app/0:/server/linux-x86_64-latest' -o "$HOME"/.local/bin/deemix-server-onefile
+chmod +x "$HOME"/.local/bin/deemix-server-onefile
+notify-send DEEMIX updated

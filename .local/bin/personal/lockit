@@ -1,0 +1,10 @@
+#!/bin/sh
+
+nu="$(light -G)"
+
+until pidof slock; do
+	xset dpms force off
+	mpc pause
+	pauseallmpv
+	{ slock && light -S "$nu" ;} &
+done
