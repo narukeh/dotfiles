@@ -2,7 +2,7 @@
 
 hinwi="$(stty size)"
 width="${hinwi##* }"
-str=''
+str='GNU '
 
 while getopts ":s:h" o; do case "${o}" in
 	h) printf "Optional arguments for custom use:\\n  -s: The word that shall be used.\\n$(grep NOTE $0 | sed 1d)\\n" && exit 1 ;;
